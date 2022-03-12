@@ -2,7 +2,7 @@
 最近工作的时候遇到了一个很神奇的bug，PowerVR的GPU：
 
 1. 在ncnn的vulkan后端上，使用use_fp16_arithmetic=true会有较大的计算误差
-2. 在tnn的opencl后端上，使用PRECISION_AUT同样会有较大的计算误差
+2. 在tnn的opencl后端上，使用PRECISION_AUTO同样会有较大的计算误差
 
 因此这里开个repo专门分析一个这个问题。
 
