@@ -1,0 +1,1264 @@
+[0 Mali-G57 MC2]  queueC=0[2]  queueG=0[2]  queueT=0[2]
+[0 Mali-G57 MC2]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+[0 Mali-G57 MC2]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+[0 Mali-G57 MC2]  subgroup=16  basic=1  vote=1  ballot=1  shuffle=0
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026013, b:0.026013
+a:0.026013, b:0.026013
+a:0.026013, b:0.026016
+a:0.026013, b:0.026016
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.025994, b:0.025994
+a:0.025994, b:0.025994
+a:0.025994, b:0.026001
+a:0.025994, b:0.026001
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026013, b:0.026013
+a:0.026013, b:0.026013
+a:0.026013, b:0.026001
+a:0.026013, b:0.026001
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026013, b:0.026013
+a:0.026013, b:0.026013
+a:0.026013, b:0.026001
+a:0.026013, b:0.026001
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.026013, b:0.026013
+a:0.026013, b:0.026013
+a:0.026013, b:0.026001
+a:0.026013, b:0.026001
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070652, b:0.070652
+a:0.070652, b:0.070652
+a:0.070652, b:0.070679
+a:0.070652, b:0.070679
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070560, b:0.070560
+a:0.070560, b:0.070560
+a:0.070560, b:0.070618
+a:0.070560, b:0.070618
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070652, b:0.070652
+a:0.070652, b:0.070652
+a:0.070652, b:0.070618
+a:0.070652, b:0.070618
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070652, b:0.070652
+a:0.070652, b:0.070652
+a:0.070652, b:0.070679
+a:0.070652, b:0.070679
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.070652, b:0.070652
+a:0.070652, b:0.070652
+a:0.070652, b:0.070679
+a:0.070652, b:0.070679
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188971, b:0.188971
+a:0.188971, b:0.188971
+a:0.188971, b:0.189087
+a:0.188971, b:0.189087
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188971, b:0.188971
+a:0.188971, b:0.188971
+a:0.188971, b:0.189087
+a:0.188971, b:0.189087
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+a:0.188969, b:0.188969
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+a:0.188965, b:0.188965
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070652, b:0.070652
+a:0.070652, b:0.070652
+a:0.070652, b:0.070679
+a:0.070652, b:0.070679
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070560, b:0.070560
+a:0.070560, b:0.070560
+a:0.070560, b:0.070618
+a:0.070560, b:0.070618
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070652, b:0.070652
+a:0.070652, b:0.070652
+a:0.070652, b:0.070618
+a:0.070652, b:0.070618
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070652, b:0.070652
+a:0.070652, b:0.070652
+a:0.070652, b:0.070679
+a:0.070652, b:0.070679
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+a:0.070548, b:0.070548
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.070652, b:0.070652
+a:0.070652, b:0.070652
+a:0.070652, b:0.070679
+a:0.070652, b:0.070679
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026013, b:0.026013
+a:0.026013, b:0.026013
+a:0.026013, b:0.026016
+a:0.026013, b:0.026016
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.025994, b:0.025994
+a:0.025994, b:0.025994
+a:0.025994, b:0.026001
+a:0.025994, b:0.026001
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026013, b:0.026013
+a:0.026013, b:0.026013
+a:0.026013, b:0.026001
+a:0.026013, b:0.026001
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026013, b:0.026013
+a:0.026013, b:0.026013
+a:0.026013, b:0.026001
+a:0.026013, b:0.026001
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+a:0.025991, b:0.025991
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.026013, b:0.026013
+a:0.026013, b:0.026013
+a:0.026013, b:0.026001
+a:0.026013, b:0.026001
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.053110, b:0.053110
+a:0.053110, b:0.053110
+a:0.053110, b:0.053101
+a:0.053110, b:0.053101
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.053002, b:0.053002
+a:0.053002, b:0.053002
+a:0.053002, b:0.052979
+a:0.053002, b:0.052979
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.053110, b:0.053110
+a:0.053110, b:0.053110
+a:0.053110, b:0.053101
+a:0.053110, b:0.053101
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.053110, b:0.053110
+a:0.053110, b:0.053110
+a:0.053110, b:0.053101
+a:0.053110, b:0.053101
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.053110, b:0.053110
+a:0.053110, b:0.053110
+a:0.053110, b:0.053101
+a:0.053110, b:0.053101
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060316, b:0.060316
+a:0.060316, b:0.060316
+a:0.060316, b:0.060303
+a:0.060316, b:0.060303
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060227, b:0.060227
+a:0.060227, b:0.060227
+a:0.060227, b:0.060211
+a:0.060227, b:0.060211
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060316, b:0.060316
+a:0.060316, b:0.060316
+a:0.060316, b:0.060303
+a:0.060316, b:0.060303
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060316, b:0.060316
+a:0.060316, b:0.060316
+a:0.060316, b:0.060303
+a:0.060316, b:0.060303
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.060316, b:0.060316
+a:0.060316, b:0.060316
+a:0.060316, b:0.060303
+a:0.060316, b:0.060303
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115437, b:0.115437
+a:0.115437, b:0.115437
+a:0.115437, b:0.115479
+a:0.115437, b:0.115479
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115302, b:0.115302
+a:0.115302, b:0.115302
+a:0.115302, b:0.115295
+a:0.115302, b:0.115295
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115437, b:0.115437
+a:0.115437, b:0.115437
+a:0.115437, b:0.115417
+a:0.115437, b:0.115417
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115437, b:0.115437
+a:0.115437, b:0.115437
+a:0.115437, b:0.115479
+a:0.115437, b:0.115479
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.115437, b:0.115437
+a:0.115437, b:0.115437
+a:0.115437, b:0.115479
+a:0.115437, b:0.115479
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115437, b:0.115437
+a:0.115437, b:0.115437
+a:0.115437, b:0.115479
+a:0.115437, b:0.115479
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115302, b:0.115302
+a:0.115302, b:0.115302
+a:0.115302, b:0.115295
+a:0.115302, b:0.115295
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115437, b:0.115437
+a:0.115437, b:0.115437
+a:0.115437, b:0.115417
+a:0.115437, b:0.115417
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115437, b:0.115437
+a:0.115437, b:0.115437
+a:0.115437, b:0.115479
+a:0.115437, b:0.115479
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+a:0.115290, b:0.115290
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.115437, b:0.115437
+a:0.115437, b:0.115437
+a:0.115437, b:0.115479
+a:0.115437, b:0.115479
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060316, b:0.060316
+a:0.060316, b:0.060316
+a:0.060316, b:0.060303
+a:0.060316, b:0.060303
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060227, b:0.060227
+a:0.060227, b:0.060227
+a:0.060227, b:0.060211
+a:0.060227, b:0.060211
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060316, b:0.060316
+a:0.060316, b:0.060316
+a:0.060316, b:0.060303
+a:0.060316, b:0.060303
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060316, b:0.060316
+a:0.060316, b:0.060316
+a:0.060316, b:0.060303
+a:0.060316, b:0.060303
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+a:0.060217, b:0.060217
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.060316, b:0.060316
+a:0.060316, b:0.060316
+a:0.060316, b:0.060303
+a:0.060316, b:0.060303
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.053110, b:0.053110
+a:0.053110, b:0.053110
+a:0.053110, b:0.053101
+a:0.053110, b:0.053101
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.053002, b:0.053002
+a:0.053002, b:0.053002
+a:0.053002, b:0.052979
+a:0.053002, b:0.052979
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.053110, b:0.053110
+a:0.053110, b:0.053110
+a:0.053110, b:0.053101
+a:0.053110, b:0.053101
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.053110, b:0.053110
+a:0.053110, b:0.053110
+a:0.053110, b:0.053101
+a:0.053110, b:0.053101
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+a:0.052994, b:0.052994
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.053110, b:0.053110
+a:0.053110, b:0.053110
+a:0.053110, b:0.053101
+a:0.053110, b:0.053101
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042567, b:0.042567
+a:0.042567, b:0.042567
+a:0.042567, b:0.042572
+a:0.042567, b:0.042572
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042483, b:0.042483
+a:0.042483, b:0.042483
+a:0.042483, b:0.042483
+a:0.042483, b:0.042483
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042567, b:0.042567
+a:0.042567, b:0.042567
+a:0.042567, b:0.042572
+a:0.042567, b:0.042572
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042567, b:0.042567
+a:0.042567, b:0.042567
+a:0.042567, b:0.042572
+a:0.042567, b:0.042572
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.042567, b:0.042567
+a:0.042567, b:0.042567
+a:0.042567, b:0.042572
+a:0.042567, b:0.042572
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084764, b:0.084764
+a:0.084764, b:0.084764
+a:0.084764, b:0.084717
+a:0.084764, b:0.084717
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084521, b:0.084521
+a:0.084521, b:0.084521
+a:0.084521, b:0.084521
+a:0.084521, b:0.084521
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084764, b:0.084764
+a:0.084764, b:0.084764
+a:0.084764, b:0.084778
+a:0.084764, b:0.084778
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084764, b:0.084764
+a:0.084764, b:0.084764
+a:0.084764, b:0.084717
+a:0.084764, b:0.084717
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.084764, b:0.084764
+a:0.084764, b:0.084764
+a:0.084764, b:0.084717
+a:0.084764, b:0.084717
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221618, b:0.221618
+a:0.221618, b:0.221618
+a:0.221618, b:0.221558
+a:0.221618, b:0.221558
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221266, b:0.221266
+a:0.221266, b:0.221266
+a:0.221266, b:0.221266
+a:0.221266, b:0.221266
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221618, b:0.221618
+a:0.221618, b:0.221618
+a:0.221618, b:0.221680
+a:0.221618, b:0.221680
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221618, b:0.221618
+a:0.221618, b:0.221618
+a:0.221618, b:0.221558
+a:0.221618, b:0.221558
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.221618, b:0.221618
+a:0.221618, b:0.221618
+a:0.221618, b:0.221558
+a:0.221618, b:0.221558
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221618, b:0.221618
+a:0.221618, b:0.221618
+a:0.221618, b:0.221558
+a:0.221618, b:0.221558
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221266, b:0.221266
+a:0.221266, b:0.221266
+a:0.221266, b:0.221266
+a:0.221266, b:0.221266
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221618, b:0.221618
+a:0.221618, b:0.221618
+a:0.221618, b:0.221680
+a:0.221618, b:0.221680
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221618, b:0.221618
+a:0.221618, b:0.221618
+a:0.221618, b:0.221558
+a:0.221618, b:0.221558
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+a:0.221212, b:0.221212
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.221618, b:0.221618
+a:0.221618, b:0.221618
+a:0.221618, b:0.221558
+a:0.221618, b:0.221558
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084764, b:0.084764
+a:0.084764, b:0.084764
+a:0.084764, b:0.084717
+a:0.084764, b:0.084717
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084521, b:0.084521
+a:0.084521, b:0.084521
+a:0.084521, b:0.084521
+a:0.084521, b:0.084521
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084764, b:0.084764
+a:0.084764, b:0.084764
+a:0.084764, b:0.084778
+a:0.084764, b:0.084778
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084764, b:0.084764
+a:0.084764, b:0.084764
+a:0.084764, b:0.084717
+a:0.084764, b:0.084717
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+a:0.084487, b:0.084487
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.084764, b:0.084764
+a:0.084764, b:0.084764
+a:0.084764, b:0.084717
+a:0.084764, b:0.084717
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042567, b:0.042567
+a:0.042567, b:0.042567
+a:0.042567, b:0.042572
+a:0.042567, b:0.042572
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042483, b:0.042483
+a:0.042483, b:0.042483
+a:0.042483, b:0.042483
+a:0.042483, b:0.042483
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042567, b:0.042567
+a:0.042567, b:0.042567
+a:0.042567, b:0.042572
+a:0.042567, b:0.042572
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042567, b:0.042567
+a:0.042567, b:0.042567
+a:0.042567, b:0.042572
+a:0.042567, b:0.042572
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+a:0.042468, b:0.042468
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.042567, b:0.042567
+a:0.042567, b:0.042567
+a:0.042567, b:0.042572
+a:0.042567, b:0.042572
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026072, b:0.026072
+a:0.026072, b:0.026072
+a:0.026072, b:0.026093
+a:0.026072, b:0.026093
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026033, b:0.026033
+a:0.026033, b:0.026033
+a:0.026033, b:0.026031
+a:0.026033, b:0.026031
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026072, b:0.026072
+a:0.026072, b:0.026072
+a:0.026072, b:0.026062
+a:0.026072, b:0.026062
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026072, b:0.026072
+a:0.026072, b:0.026072
+a:0.026072, b:0.026093
+a:0.026072, b:0.026093
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.026072, b:0.026072
+a:0.026072, b:0.026072
+a:0.026072, b:0.026093
+a:0.026072, b:0.026093
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043969, b:0.043969
+a:0.043969, b:0.043969
+a:0.043969, b:0.043945
+a:0.043969, b:0.043945
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043883, b:0.043883
+a:0.043883, b:0.043883
+a:0.043883, b:0.043854
+a:0.043883, b:0.043854
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043969, b:0.043969
+a:0.043969, b:0.043969
+a:0.043969, b:0.043945
+a:0.043969, b:0.043945
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043969, b:0.043969
+a:0.043969, b:0.043969
+a:0.043969, b:0.043945
+a:0.043969, b:0.043945
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.043969, b:0.043969
+a:0.043969, b:0.043969
+a:0.043969, b:0.043945
+a:0.043969, b:0.043945
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043969, b:0.043969
+a:0.043969, b:0.043969
+a:0.043969, b:0.043945
+a:0.043969, b:0.043945
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043883, b:0.043883
+a:0.043883, b:0.043883
+a:0.043883, b:0.043854
+a:0.043883, b:0.043854
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043969, b:0.043969
+a:0.043969, b:0.043969
+a:0.043969, b:0.043945
+a:0.043969, b:0.043945
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043969, b:0.043969
+a:0.043969, b:0.043969
+a:0.043969, b:0.043945
+a:0.043969, b:0.043945
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+a:0.043868, b:0.043868
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.043969, b:0.043969
+a:0.043969, b:0.043969
+a:0.043969, b:0.043945
+a:0.043969, b:0.043945
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026072, b:0.026072
+a:0.026072, b:0.026072
+a:0.026072, b:0.026093
+a:0.026072, b:0.026093
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026033, b:0.026033
+a:0.026033, b:0.026033
+a:0.026033, b:0.026031
+a:0.026033, b:0.026031
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026072, b:0.026072
+a:0.026072, b:0.026072
+a:0.026072, b:0.026062
+a:0.026072, b:0.026062
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026072, b:0.026072
+a:0.026072, b:0.026072
+a:0.026072, b:0.026093
+a:0.026072, b:0.026093
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+a:0.026026, b:0.026026
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.026072, b:0.026072
+a:0.026072, b:0.026072
+a:0.026072, b:0.026093
+a:0.026072, b:0.026093
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030814, b:0.030814
+a:0.030814, b:0.030814
+a:0.030814, b:0.030807
+a:0.030814, b:0.030807
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030771, b:0.030771
+a:0.030771, b:0.030771
+a:0.030771, b:0.030777
+a:0.030771, b:0.030777
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030814, b:0.030814
+a:0.030814, b:0.030814
+a:0.030814, b:0.030807
+a:0.030814, b:0.030807
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030814, b:0.030814
+a:0.030814, b:0.030814
+a:0.030814, b:0.030807
+a:0.030814, b:0.030807
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.030814, b:0.030814
+a:0.030814, b:0.030814
+a:0.030814, b:0.030807
+a:0.030814, b:0.030807
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016261, b:0.016261
+a:0.016261, b:0.016261
+a:0.016261, b:0.016281
+a:0.016261, b:0.016281
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016216, b:0.016216
+a:0.016216, b:0.016216
+a:0.016216, b:0.016235
+a:0.016216, b:0.016235
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016261, b:0.016261
+a:0.016261, b:0.016261
+a:0.016261, b:0.016251
+a:0.016261, b:0.016251
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016261, b:0.016261
+a:0.016261, b:0.016261
+a:0.016261, b:0.016281
+a:0.016261, b:0.016281
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.016261, b:0.016261
+a:0.016261, b:0.016261
+a:0.016261, b:0.016281
+a:0.016261, b:0.016281
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016261, b:0.016261
+a:0.016261, b:0.016261
+a:0.016261, b:0.016281
+a:0.016261, b:0.016281
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016216, b:0.016216
+a:0.016216, b:0.016216
+a:0.016216, b:0.016235
+a:0.016216, b:0.016235
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016261, b:0.016261
+a:0.016261, b:0.016261
+a:0.016261, b:0.016251
+a:0.016261, b:0.016251
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016261, b:0.016261
+a:0.016261, b:0.016261
+a:0.016261, b:0.016281
+a:0.016261, b:0.016281
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+a:0.016208, b:0.016208
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.016261, b:0.016261
+a:0.016261, b:0.016261
+a:0.016261, b:0.016281
+a:0.016261, b:0.016281
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030814, b:0.030814
+a:0.030814, b:0.030814
+a:0.030814, b:0.030807
+a:0.030814, b:0.030807
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030771, b:0.030771
+a:0.030771, b:0.030771
+a:0.030771, b:0.030777
+a:0.030771, b:0.030777
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030814, b:0.030814
+a:0.030814, b:0.030814
+a:0.030814, b:0.030807
+a:0.030814, b:0.030807
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030814, b:0.030814
+a:0.030814, b:0.030814
+a:0.030814, b:0.030807
+a:0.030814, b:0.030807
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+a:0.030751, b:0.030751
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.030814, b:0.030814
+a:0.030814, b:0.030814
+a:0.030814, b:0.030807
+a:0.030814, b:0.030807
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112308, b:0.112308
+a:0.112308, b:0.112308
+a:0.112308, b:0.112366
+a:0.112308, b:0.112366
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112632, b:0.112632
+a:0.112632, b:0.112632
+a:0.112632, b:0.112632
+a:0.112632, b:0.112632
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112308, b:0.112308
+a:0.112308, b:0.112308
+a:0.112308, b:0.112244
+a:0.112308, b:0.112244
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112308, b:0.112308
+a:0.112308, b:0.112308
+a:0.112308, b:0.112366
+a:0.112308, b:0.112366
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.112308, b:0.112308
+a:0.112308, b:0.112308
+a:0.112308, b:0.112366
+a:0.112308, b:0.112366
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.078883, b:0.078883
+a:0.078883, b:0.078883
+a:0.078883, b:0.078918
+a:0.078883, b:0.078918
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.079009, b:0.079009
+a:0.079009, b:0.079009
+a:0.079009, b:0.079009
+a:0.079009, b:0.079009
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.078883, b:0.078883
+a:0.078883, b:0.078883
+a:0.078883, b:0.078918
+a:0.078883, b:0.078918
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.078883, b:0.078883
+a:0.078883, b:0.078883
+a:0.078883, b:0.078918
+a:0.078883, b:0.078918
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.078883, b:0.078883
+a:0.078883, b:0.078883
+a:0.078883, b:0.078918
+a:0.078883, b:0.078918
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.078883, b:0.078883
+a:0.078883, b:0.078883
+a:0.078883, b:0.078918
+a:0.078883, b:0.078918
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.079009, b:0.079009
+a:0.079009, b:0.079009
+a:0.079009, b:0.079009
+a:0.079009, b:0.079009
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.078883, b:0.078883
+a:0.078883, b:0.078883
+a:0.078883, b:0.078918
+a:0.078883, b:0.078918
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.078883, b:0.078883
+a:0.078883, b:0.078883
+a:0.078883, b:0.078918
+a:0.078883, b:0.078918
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+a:0.079014, b:0.079014
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.078883, b:0.078883
+a:0.078883, b:0.078883
+a:0.078883, b:0.078918
+a:0.078883, b:0.078918
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112308, b:0.112308
+a:0.112308, b:0.112308
+a:0.112308, b:0.112366
+a:0.112308, b:0.112366
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112632, b:0.112632
+a:0.112632, b:0.112632
+a:0.112632, b:0.112632
+a:0.112632, b:0.112632
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112308, b:0.112308
+a:0.112308, b:0.112308
+a:0.112308, b:0.112244
+a:0.112308, b:0.112244
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112308, b:0.112308
+a:0.112308, b:0.112308
+a:0.112308, b:0.112366
+a:0.112308, b:0.112366
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+a:0.112650, b:0.112650
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.112308, b:0.112308
+a:0.112308, b:0.112308
+a:0.112308, b:0.112366
+a:0.112308, b:0.112366
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003087, b:0.003087
+a:0.003087, b:0.003087
+a:0.003087, b:0.003084
+a:0.003087, b:0.003084
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003087, b:0.003087
+a:0.003087, b:0.003087
+a:0.003087, b:0.003086
+a:0.003087, b:0.003086
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003087, b:0.003087
+a:0.003087, b:0.003087
+a:0.003087, b:0.003086
+a:0.003087, b:0.003086
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.003087, b:0.003087
+a:0.003087, b:0.003087
+a:0.003087, b:0.003086
+a:0.003087, b:0.003086
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003087, b:0.003087
+a:0.003087, b:0.003087
+a:0.003087, b:0.003084
+a:0.003087, b:0.003084
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003087, b:0.003087
+a:0.003087, b:0.003087
+a:0.003087, b:0.003086
+a:0.003087, b:0.003086
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003087, b:0.003087
+a:0.003087, b:0.003087
+a:0.003087, b:0.003086
+a:0.003087, b:0.003086
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+a:0.003082, b:0.003082
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.003087, b:0.003087
+a:0.003087, b:0.003087
+a:0.003087, b:0.003086
+a:0.003087, b:0.003086
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002356
+a:0.002354, b:0.002356
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002344, b:0.002344
+a:0.002344, b:0.002344
+a:0.002344, b:0.002342
+a:0.002344, b:0.002342
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002356
+a:0.002354, b:0.002356
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002356
+a:0.002354, b:0.002356
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002356
+a:0.002354, b:0.002356
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002344, b:0.002344
+a:0.002344, b:0.002344
+a:0.002344, b:0.002342
+a:0.002344, b:0.002342
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002356
+a:0.002354, b:0.002356
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+a:0.002342, b:0.002342
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.002354, b:0.002354
+a:0.002354, b:0.002354
+a:0.002354, b:0.002356
+a:0.002354, b:0.002356
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013287, b:0.013287
+a:0.013287, b:0.013287
+a:0.013287, b:0.013329
+a:0.013287, b:0.013329
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013298, b:0.013298
+a:0.013298, b:0.013298
+a:0.013298, b:0.013298
+a:0.013298, b:0.013298
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013287, b:0.013287
+a:0.013287, b:0.013287
+a:0.013287, b:0.013290
+a:0.013287, b:0.013290
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013287, b:0.013287
+a:0.013287, b:0.013287
+a:0.013287, b:0.013329
+a:0.013287, b:0.013329
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.013287, b:0.013287
+a:0.013287, b:0.013287
+a:0.013287, b:0.013329
+a:0.013287, b:0.013329
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013287, b:0.013287
+a:0.013287, b:0.013287
+a:0.013287, b:0.013329
+a:0.013287, b:0.013329
+test_layer Softmax failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013298, b:0.013298
+a:0.013298, b:0.013298
+a:0.013298, b:0.013298
+a:0.013298, b:0.013298
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013287, b:0.013287
+a:0.013287, b:0.013287
+a:0.013287, b:0.013290
+a:0.013287, b:0.013290
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013287, b:0.013287
+a:0.013287, b:0.013287
+a:0.013287, b:0.013329
+a:0.013287, b:0.013329
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+a:0.013300, b:0.013300
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.013287, b:0.013287
+a:0.013287, b:0.013287
+a:0.013287, b:0.013329
+a:0.013287, b:0.013329
+test_layer Softmax failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0

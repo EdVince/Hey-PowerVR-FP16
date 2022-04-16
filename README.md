@@ -22,19 +22,35 @@ make -j$(nproc)
 
 **三星A12**：
 [0 PowerVR Rogue GE8320]  queueC=0[2]  queueG=0[2]  queueT=0[2]
+
 [0 PowerVR Rogue GE8320]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+
 [0 PowerVR Rogue GE8320]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+
 [0 PowerVR Rogue GE8320]  subgroup=1  basic=1  vote=1  ballot=1  shuffle=1
 
 **三星S9**：
 [0 Adreno (TM) 630]  queueC=0[3]  queueG=0[3]  queueT=0[3]
+
 [0 Adreno (TM) 630]  bugsbn1=1  bugbilz=0  bugcopc=0  bugihfa=1
+
 [0 Adreno (TM) 630]  fp16-p/s/a=1/0/1  int8-p/s/a=1/0/0
+
 [0 Adreno (TM) 630]  subgroup=64  basic=1  vote=1  ballot=0  shuffle=0
 
-| fp16a   | Naive    | Adreno   | Adreno Error | PowerVR  | PowerVR Error |
-| ------- | -------- | -------- | ------------ | -------- | ------------- |
-| Softmax | 0.013287 | 0.013306 | 0.0014299691 | 0.013542 | 0.01919169112 |
+**荣耀畅玩30Plus**:
+[0 Mali-G57 MC2]  queueC=0[2]  queueG=0[2]  queueT=0[2]
+
+[0 Mali-G57 MC2]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+
+[0 Mali-G57 MC2]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+
+[0 Mali-G57 MC2]  subgroup=16  basic=1  vote=1  ballot=1  shuffle=0
+
+
+| fp16a   | Naive    | Adreno   | Adreno Error | PowerVR  | PowerVR Error | Mali     | Mali Error |
+| ------- | -------- | -------- | ------------ | -------- | ------------- | -------- | ---------- |
+| Softmax | 0.013287 | 0.013306 | 0.142996%    | 0.013542 | 1.919169%     | 0.013329 | 0.316098%  |
 
 
 ## 参考
