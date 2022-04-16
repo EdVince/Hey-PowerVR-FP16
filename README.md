@@ -25,6 +25,7 @@ make -j$(nproc)
 [0 PowerVR Rogue GE8320]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
 [0 PowerVR Rogue GE8320]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
 [0 PowerVR Rogue GE8320]  subgroup=1  basic=1  vote=1  ballot=1  shuffle=1
+
 **三星S9**：
 [0 Adreno (TM) 630]  queueC=0[3]  queueG=0[3]  queueT=0[3]
 [0 Adreno (TM) 630]  bugsbn1=1  bugbilz=0  bugcopc=0  bugihfa=1
