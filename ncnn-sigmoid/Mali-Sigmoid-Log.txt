@@ -1,0 +1,319 @@
+[0 Mali-G57 MC2]  queueC=0[2]  queueG=0[2]  queueT=0[2]
+[0 Mali-G57 MC2]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
+[0 Mali-G57 MC2]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
+[0 Mali-G57 MC2]  subgroup=16  basic=1  vote=1  ballot=1  shuffle=0
+a:0.382535, b:0.382535
+a:0.382535, b:0.382535
+a:0.382535, b:0.382535
+a:0.382535, b:0.382535
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.382545, b:0.382545
+a:0.382545, b:0.382545
+a:0.382545, b:0.382568
+a:0.382545, b:0.382568
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.382535, b:0.382535
+a:0.382535, b:0.382535
+a:0.382535, b:0.382535
+a:0.382535, b:0.382535
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+a:0.382603, b:0.382568
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.450888, b:0.450888
+a:0.450888, b:0.450888
+a:0.450888, b:0.450888
+a:0.450888, b:0.450888
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.450903, b:0.450903
+a:0.450903, b:0.450903
+a:0.450903, b:0.450928
+a:0.450903, b:0.450928
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.450888, b:0.450888
+a:0.450888, b:0.450888
+a:0.450888, b:0.450888
+a:0.450888, b:0.450888
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+a:0.451085, b:0.451172
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.426131, b:0.426131
+a:0.426131, b:0.426131
+a:0.426131, b:0.426131
+a:0.426131, b:0.426131
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.426142, b:0.426142
+a:0.426142, b:0.426142
+a:0.426142, b:0.426142
+a:0.426142, b:0.426142
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.426131, b:0.426131
+a:0.426131, b:0.426131
+a:0.426131, b:0.426131
+a:0.426131, b:0.426131
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+a:0.426322, b:0.426270
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.459837, b:0.459837
+a:0.459837, b:0.459837
+a:0.459837, b:0.459837
+a:0.459837, b:0.459837
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.459864, b:0.459864
+a:0.459864, b:0.459864
+a:0.459864, b:0.459961
+a:0.459864, b:0.459961
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.459837, b:0.459837
+a:0.459837, b:0.459837
+a:0.459837, b:0.459837
+a:0.459837, b:0.459837
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+a:0.460046, b:0.459961
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.302083, b:0.302082
+a:0.302083, b:0.302082
+a:0.302083, b:0.302083
+a:0.302083, b:0.302083
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.302185, b:0.302185
+a:0.302185, b:0.302185
+a:0.302185, b:0.302246
+a:0.302185, b:0.302246
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.302083, b:0.302082
+a:0.302083, b:0.302082
+a:0.302083, b:0.302083
+a:0.302083, b:0.302083
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+a:0.302391, b:0.302490
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.674863, b:0.674861
+a:0.674863, b:0.674861
+a:0.674863, b:0.674863
+a:0.674863, b:0.674863
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.674801, b:0.674800
+a:0.674801, b:0.674800
+a:0.674801, b:0.674801
+a:0.674801, b:0.674801
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.674050, b:0.673828
+a:0.674050, b:0.673828
+a:0.674050, b:0.673828
+a:0.674050, b:0.673828
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.674863, b:0.674861
+a:0.674863, b:0.674861
+a:0.674863, b:0.674863
+a:0.674863, b:0.674863
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+a:0.674050, b:0.674316
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.336207, b:0.336207
+a:0.336207, b:0.336207
+a:0.336207, b:0.336207
+a:0.336207, b:0.336207
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.336222, b:0.336222
+a:0.336222, b:0.336222
+a:0.336222, b:0.336182
+a:0.336222, b:0.336182
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.336207, b:0.336207
+a:0.336207, b:0.336207
+a:0.336207, b:0.336207
+a:0.336207, b:0.336207
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+a:0.336331, b:0.336426
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.272060, b:0.272059
+a:0.272060, b:0.272059
+a:0.272060, b:0.272060
+a:0.272060, b:0.272060
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.272799, b:0.272949
+a:0.272799, b:0.272949
+a:0.272799, b:0.272705
+a:0.272799, b:0.272705
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.272121, b:0.272121
+a:0.272121, b:0.272121
+a:0.272121, b:0.272217
+a:0.272121, b:0.272217
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.272799, b:0.272705
+a:0.272799, b:0.272705
+a:0.272799, b:0.272705
+a:0.272799, b:0.272705
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.272799, b:0.272949
+a:0.272799, b:0.272949
+a:0.272799, b:0.272705
+a:0.272799, b:0.272705
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.272060, b:0.272059
+a:0.272060, b:0.272059
+a:0.272060, b:0.272060
+a:0.272060, b:0.272060
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.272799, b:0.272949
+a:0.272799, b:0.272949
+a:0.272799, b:0.272705
+a:0.272799, b:0.272705
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.684744, b:0.684743
+a:0.684744, b:0.684743
+a:0.684744, b:0.684744
+a:0.684744, b:0.684744
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+test_layer Sigmoid failed use_packing_layout=0 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=0 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.684686, b:0.684685
+a:0.684686, b:0.684685
+a:0.684686, b:0.684686
+a:0.684686, b:0.684686
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.684264, b:0.684082
+a:0.684264, b:0.684082
+a:0.684264, b:0.684082
+a:0.684264, b:0.684082
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=0 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=1 use_winograd_convolution=1
+a:0.684744, b:0.684743
+a:0.684744, b:0.684743
+a:0.684744, b:0.684744
+a:0.684744, b:0.684744
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=0 use_fp16_storage=0 use_fp16_arithmetic=0 use_shader_pack8=0 use_bf16_storage=0 use_image_storage=0 use_sgemm_convolution=0 use_winograd_convolution=0
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+a:0.684264, b:0.684570
+test_layer Sigmoid failed use_packing_layout=1 use_fp16_packed=1 use_fp16_storage=1 use_fp16_arithmetic=1 use_shader_pack8=1 use_bf16_storage=1 use_image_storage=1 use_sgemm_convolution=0 use_winograd_convolution=0

@@ -51,9 +51,12 @@ make -j$(nproc)
 | fp16a   | Naive    | Adreno   | Mali     | PowerVR  |
 | ------- | -------- | -------- | -------- | -------- |
 | Softmax | 0.013287 | 0.013306 | 0.013329 | 0.013542 |
+| Sigmoid | 0.684264 | 0.684082 | 0.684570 | 0.684082 |
+| ReLU    | -0.078906 | -0.078857 | -0.078857 | -0.078857 |
 
 
 ## 参考
-1. [ncnn](https://github.com/Tencent/ncnn)
-2. [tnn](https://github.com/Tencent/TNN)
-3. [mnn](https://github.com/alibaba/MNN)
+1. [ncnn arm](https://github.com/Tencent/ncnn/tree/master/src/layer/arm)
+2. [ncnn vk](https://github.com/Tencent/ncnn/tree/master/src/layer/vulkan)
+3. [arm arm&cl](https://github.com/ARM-software/ComputeLibrary)
+4. [google vk](https://github.com/google/uVkCompute)
