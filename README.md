@@ -34,7 +34,7 @@ GPU: GE8320 (maybe 8 for Series8XE/Plus series, 3 for 6 pixels/clock, 2 for 128 
 [0 PowerVR Rogue GE8320]  subgroup=1  basic=1  vote=1  ballot=1  shuffle=1
 ```
 
-## ncnn分析
+## 简单的ncnn测试
 
 ##### 源码编译：
 1. 源码版本20220216
@@ -54,9 +54,28 @@ make -j$(nproc)
 | Sigmoid | 0.684264 | 0.684082 | 0.684570 | 0.684082 |
 | ReLU    | -0.078906 | -0.078857 | -0.078857 | -0.078857 |
 
+## 测试
+理论:
+```
+2.71828182 * 3.14159265 = 8.53973418634062300 (pi * e)
+2.33000000 * 4.20000000 = 9.78600000000000000 (laugh * answer)
+```
+C & double:
+```
+2.71828182000000007 * 3.14159265000000021 = 8.53973418634062398 (pi * e)
+2.33000000000000007 * 4.20000000000000018 = 9.78600000000000136 (laugh * answer)
+```
+C & float:
+```
+2.71828174591064453 * 3.14159274101257324 = 8.53973388671875000 (pi * e)
+2.32999992370605469 * 4.19999980926513672 = 9.78599929809570312 (laugh * answer)
+```
 
 ## 参考
 1. [ncnn arm](https://github.com/Tencent/ncnn/tree/master/src/layer/arm)
 2. [ncnn vk](https://github.com/Tencent/ncnn/tree/master/src/layer/vulkan)
 3. [arm arm&cl](https://github.com/ARM-software/ComputeLibrary)
 4. [google vk](https://github.com/google/uVkCompute)
+5. [IEEE 2019]()
+5. [IEEE 2019 wiki](https://en.wikipedia.org/wiki/IEEE_754#2019)
+5. [IEEE 754 Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
