@@ -19,6 +19,10 @@ CPU: Snapdragon 845 (2.8 GHz 4 * Kyro 385 & 1.7 GHz 4 * Kyro 385)
 **[荣耀畅玩30Plus](https://benchmarks.ul.com/hardware/phone/Huawei+Honor+Play+30+Plus+review)**：
 ```
 CPU: Dimensity 700 (2.2 GHz 2 * ARM Cortex-A76 & 2.0 GHz 6 * ARM Cortex-A55)
+armv7 neon or aarch64 asimd: 2
+armv7 fp16 + fma: 2
+aarch64 asimd half precision: 1024
+aarch64 asimd dot product: 1048576
 [0 Mali-G57 MC2]  queueC=0[2]  queueG=0[2]  queueT=0[2]
 [0 Mali-G57 MC2]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
 [0 Mali-G57 MC2]  fp16-p/s/a=1/1/1  int8-p/s/a=1/1/1
@@ -27,6 +31,10 @@ CPU: Dimensity 700 (2.2 GHz 2 * ARM Cortex-A76 & 2.0 GHz 6 * ARM Cortex-A55)
 **[三星A12](https://benchmarks.ul.com/hardware/phone/Samsung+Galaxy+A12+review)**：
 ```
 CPU: Helio P35 (2.3 GHz 4 * ARM Cortex-A53 & 1.8 GHz 4 * ARM Cortex-A53)
+armv7 neon or aarch64 asimd: 2
+armv7 fp16 + fma: 2
+aarch64 asimd half precision: 0
+aarch64 asimd dot product: 0
 GPU: GE8320 (maybe 8 for Series8XE/Plus series, 3 for 6 pixels/clock, 2 for 128 FP16 FLOPs/clock and 0 for no PVRIC)
 [0 PowerVR Rogue GE8320]  queueC=0[2]  queueG=0[2]  queueT=0[2]
 [0 PowerVR Rogue GE8320]  bugsbn1=0  bugbilz=0  bugcopc=0  bugihfa=0
@@ -54,28 +62,12 @@ make -j$(nproc)
 | Sigmoid | 0.684264 | 0.684082 | 0.684570 | 0.684082 |
 | ReLU    | -0.078906 | -0.078857 | -0.078857 | -0.078857 |
 
-## 测试
-理论:
-```
-2.71828182 * 3.14159265 = 8.53973418634062300 (pi * e)
-2.33000000 * 4.20000000 = 9.78600000000000000 (laugh * answer)
-```
-C & double:
-```
-2.71828182000000007 * 3.14159265000000021 = 8.53973418634062398 (pi * e)
-2.33000000000000007 * 4.20000000000000018 = 9.78600000000000136 (laugh * answer)
-```
-C & float:
-```
-2.71828174591064453 * 3.14159274101257324 = 8.53973388671875000 (pi * e)
-2.32999992370605469 * 4.19999980926513672 = 9.78599929809570312 (laugh * answer)
-```
-
 ## 参考
 1. [ncnn arm](https://github.com/Tencent/ncnn/tree/master/src/layer/arm)
 2. [ncnn vk](https://github.com/Tencent/ncnn/tree/master/src/layer/vulkan)
 3. [arm arm&cl](https://github.com/ARM-software/ComputeLibrary)
 4. [google vk](https://github.com/google/uVkCompute)
-5. [IEEE 2019]()
-5. [IEEE 2019 wiki](https://en.wikipedia.org/wiki/IEEE_754#2019)
-5. [IEEE 754 Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
+5. [IEEE 2019](https://ieeexplore.ieee.org/document/8766229)
+6. [IEEE 2019 wiki](https://en.wikipedia.org/wiki/IEEE_754#2019)
+7. [IEEE 754 Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
+8. [XiangShan fudian](https://github.com/OpenXiangShan/fudian)
