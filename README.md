@@ -128,9 +128,6 @@ Formula: a * b = c
 | Mali    | 0.19995117187500000f | 0.32983398437500000f | 0.06597900390625000f |
 | PowerVR | 0.19995117187500000f | 0.32983398437500000f | 0.06591796875000000f |
 
-问题: ncnn的vulkan结果显示powervr是支持fp16p/s/a的，但opencl返回CL_DEVICE_PREFERRED_VECTOR_WIDTH_
-HALF==0意味着它不支持cl_khr_fp16扩展
-
 ## 参考
 1. [ncnn arm](https://github.com/Tencent/ncnn/tree/master/src/layer/arm)
 2. [ncnn vk](https://github.com/Tencent/ncnn/tree/master/src/layer/vulkan)
