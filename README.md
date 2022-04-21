@@ -1,4 +1,4 @@
-# Fucking-PowerVR-FP16
+# Hey-PowerVR-FP16
 最近工作的时候遇到了一个很神奇的bug，PowerVR的GPU：
 
 1. 在ncnn的vulkan后端上，使用use_fp16_arithmetic=true会有较大的计算误差
@@ -114,7 +114,7 @@ make -j$(nproc)
 ## OpenCL测试
 
 ##### 代码编译
-1. OPenCL头文件从这里获取: https://github.com/KhronosGroup/OpenCL-Headers
+1. OpenCL头文件从这里获取: https://github.com/KhronosGroup/OpenCL-Headers
 2. armeabi-v7a平台编译用的libOpenCL.so从这里获取: https://github.com/Tencent/TNN/blob/master/third_party/opencl/lib/libOpenCL.so
 
 ##### 结果：
@@ -128,6 +128,21 @@ Formula: a * b = c
 | Mali    | 0.19995117187500000f | 0.32983398437500000f | 0.06597900390625000f |
 | PowerVR | 0.19995117187500000f | 0.32983398437500000f | 0.06591796875000000f |
 
+## 原因猜测
+通过对比OpenCL的FP16的结果发现，看样子是因为最后的结果没有进行四舍五入，按照OpenCL中的信息"Device half Round to nearest"是"no"也进一步验证了我的想法。就是因为它没实现四舍五入，导致结果计算跟主流实现误差较大，同时经过ncnn、tnn这些引擎推理了多层网络后，误差累积放大直到不可用。
+
+解决方法:
+1. ncnn下遇到这种情况，设置use_fp16_arithmetic=False即可
+2. tnn下遇到这种情况，设置PRECISION_HIGH即可
+
+疑问:
+1. 按照OpenCL的规范说"Preferred/Native Vector Sizes"是0的时候应该是不支持"cl_khr_fp16"扩展的，但我这个设备还是支持了。。。。
+2. 按照OpenCL的规范说"Round to nearest even is currently the only rounding mode required by the OpenCL specification"我的理解是四舍五入是规范要求的呀？但我这个又不支持。
+3. QA说所有的PowerVR手机都有这个问题？这不是个例而是PowerVR架构的同病？
+
+下一步:
+1. 氪金买更多的PowerVR手机回来测试
+
 ## 参考
 1. [ncnn arm](https://github.com/Tencent/ncnn/tree/master/src/layer/arm)
 2. [ncnn vk](https://github.com/Tencent/ncnn/tree/master/src/layer/vulkan)
@@ -136,6 +151,5 @@ Formula: a * b = c
 5. [IEEE 2019](https://ieeexplore.ieee.org/document/8766229)
 6. [IEEE 2019 wiki](https://en.wikipedia.org/wiki/IEEE_754#2019)
 7. [IEEE 754 Converter](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
-8. [XiangShan fudian](https://github.com/OpenXiangShan/fudian)
-9. [opencl info](https://github.com/Oblomov/clinfo)
-10. [opencl 1.2](https://www.khronos.org/registry/OpenCL/specs/opencl-1.2.pdf)
+8. [opencl info](https://github.com/Oblomov/clinfo)
+9. [opencl 1.2](https://www.khronos.org/registry/OpenCL/specs/opencl-1.2.pdf)
